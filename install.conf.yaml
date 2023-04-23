@@ -1,10 +1,15 @@
 - clean: ['~']
 
 - link:
-    ~/.gitconfig: gitconfig
+    ~/.gitconfig:
     ~/.ssh/config:
         path: ssh/config
         create: true
     ~/.zprofile: zprofile
+    ~/.zshrc:
+
+- defaults:
+    link:
+      relink: true
 
 
